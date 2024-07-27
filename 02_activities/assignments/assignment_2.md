@@ -10,24 +10,36 @@
 - For each visualization (good and bad):  
     - Explain (with reference to material covered up to date, along with readings and other scholarly sources, as needed) why you classified that visualization the way you did.
       ```
-      Your answer...
+      Good Visualization: Dreamforce 2019 Water Bottle Refills
+      (https://public.tableau.com/app/profile/dreamforce/viz/Dreamforce2019WaterBottleRefills/EnvironmentalImpact)
+      
+      * The visualization uses a bar graph to clearly show the number of water bottle refills daily during the Dreamforce annual event. And by hovering over the bars users can see the total accumulation every 3 hours.The right side of the bar graph is used to state the difference we could make by reducing the usage of selected number of bottles in the bar graph. This information is presented using concise icons and plain language. This is easily understandable for a larger audience.
+      * The other two pages of the dashboard clearly state some statistical facts about the impact of using single use plastic bottles and cups, whether Dreamforce attendees really drinking enough water and what they can do to help. All this is explained in plain language for a broader audience to easily understand.
+      * The title of the dashboard and the description provides a good understanding for the audience about the dashboard and its purpose. This conveys the message clearly.
+      * This dashboard is interactive. It allows users to filter the environmental impact by day. This empowers deeper understanding of our actions on environmental impact.
+      * Colors are used effectively to highlight the environmental impact based on landfills, electricity, C02 emissions and ocean pollutions. Colors used are not too bright nor too light.
+      * The visualization states the source of this dashboard as it is a progress of an ongoing project by Dreamforce and Cupanion.
 
 
-
-
-
-
+     Bad Visualization: https://dribbble.com/shots/21955628-Bar-chart-widgets-Hyper-charts-UI-Kit
+     
+     * The visualizations in this dashboard are not clear and the purpose of the dashboard is not clear. Hence it lacks clarity.  * * Colors used in the bar graph are too bright and affects the readability.
+     * Missing information makes it difficult to interpret the graph. The top of the visualization explains weekly monthly and       yearly monetary values but the graph just shows some numerical values.
+     * Units of the graph are not specified. And x axis also shows some integer values not a date. 
+     * No consistency between the units in the graph and the units in the tiles. 
+     * Missing Y axis makes it difficult to get an idea about the data.
+     * Irrelevant icons are used for monthly weekly and yearly total values.
+     * “Compared to $… last week/month/year” phrase in each tile is difficult to understand at a first glance.
 
       ```
     - How could this data visualization have been improved?  
       ```
-      Your answer...
-
-
-
-
-
-
+     * To improve the above visualization, y axis could be added stating the units of the bar graph, if not units could be included with the numerical values. 
+     * An x axis label would make the bar chart more interpretable.
+     * Use of more neutral colors and relevant icons would increase accessibility and readability.
+     * Rewording the “Compared to $… last week/month/year” phrase would make it easy to understand the context.
+     * Adding a title and a short description on top would help to improve the clarity.
+     * To improve the transparency of data used and for reproducibility a data source could be added.
       
       ```
 - Word count should not exceed (as a maximum) 500 words for each visualization (i.e. 
