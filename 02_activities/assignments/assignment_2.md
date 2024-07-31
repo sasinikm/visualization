@@ -9,7 +9,7 @@
     - You can find data visualizations at https://public.tableau.com/app/discover or https://datavizproject.com/, or anywhere else you like! 
 - For each visualization (good and bad):  
     - Explain (with reference to material covered up to date, along with readings and other scholarly sources, as needed) why you classified that visualization the way you did.
-      ```
+```
       Good Visualization: Dreamforce 2019 Water Bottle Refills
       (https://public.tableau.com/app/profile/dreamforce/viz/Dreamforce2019WaterBottleRefills/EnvironmentalImpact)
       
@@ -31,9 +31,9 @@
      * Irrelevant icons are used for monthly weekly and yearly total values.
      * “Compared to $… last week/month/year” phrase in each tile is difficult to understand at a first glance.
 
-      ```
-    - How could this data visualization have been improved?  
-      ```
+```
+- How could this data visualization have been improved?  
+```
      * To improve the above visualization, y axis could be added stating the units of the bar graph, if not units could be included with the numerical values. 
      * An x axis label would make the bar chart more interpretable.
      * Use of more neutral colors and relevant icons would increase accessibility and readability.
@@ -41,7 +41,7 @@
      * Adding a title and a short description on top would help to improve the clarity.
      * To improve the transparency of data used and for reproducibility a data source could be added.
       
-      ```
+```
 - Word count should not exceed (as a maximum) 500 words for each visualization (i.e. 
 300 words for your good example and 500 for your bad example)
 
