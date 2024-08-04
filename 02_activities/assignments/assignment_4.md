@@ -7,23 +7,128 @@
 - Choose a dataset of interest from the [City of Toronto’s Open Data Portal](https://www.toronto.ca/city-government/data-research-maps/open-data/) or [Ontario’s Open Data Catalogue](https://data.ontario.ca/). 
 - Using Python and one other data visualization software (Excel or free alternative, Tableau Public, any other tool you prefer), create two distinct visualizations from your dataset of choice.  
 - For each visualization, describe and justify: 
+
+    ```
+    1. Visualization created with Python (in assignment4.ipynb file)
+    ```
     > What software did you use to create your data visualization?
+    Python
 
     > Who is your intended audience? 
+    General public, Economists, Businesses and investors
     
     > What information or message are you trying to convey with your visualization? 
+    This visualization includes a line graph and a pie chart. 
+    * Line graph indicates how the Gross Domestic Product(GDP) of Ontario changes over time (2007-2022). 
+    * Pie chart indicates the contribution of two main industries(Services,Goods Producing) to the GDP of 2022.
     
     > What design principles (substantive, perceptual, aesthetic) did you consider when making your visualization? How did you apply these principles? With what elements of your plots? 
+    Substantive Principles:
+        * The visualizations are accurately plotted and labeled
+        * Clear axis labels, titles and legends are provided to ensure that users understands the plots
+        * The plots clearly convey the required message
+        * Only key insights are shown by the plots without making the visualizations cluttered
+
+     Perceptual Principles: 
+        * Contrasting colours are used to plot GDP for different industries
+        * Custom tooltips are used to display relevant information concisely
+        * The use of markers and lines shows the data points and trends over time
     
+     Aesthetic Principles
+        * Colors used are neautral which are accessible for color sensitive and color blind audiences
+        * Consistent use of fonts, line styles, and marker sizes
+        * Properly spacing and aligning to ensure the plot is not cluttered improving the readability
+
     > How did you ensure that your data visualizations are reproducible? If the tool you used to make your data visualization is not reproducible, how will this impact your data visualization? 
+    Data source is mentioned below each plot and the python code (commented for clarity) is available in Git in a public repository making this visualizations reproducible. Beacuse python tool is used to generate these plots, they are reporoducibe. 
     
     > How did you ensure that your data visualization is accessible?  
-    
+    To make the these visualizations accessible 
+    * contrasting and neutral colours are used
+    * Titles, x-axis label, y-axis label and a legend are added
+    * Tooltips are added for users to hover over the plots and understand data
+    * Fontsizes over 12pt are used
+
     > Who are the individuals and communities who might be impacted by your visualization?  
-    
+    *Economists and policy makers who use GDP data to analyze economic performance
+    *Businesses and investors who rely on GDP data to make investment decisions
+    *The general public who uses GDP data to understand the economy of Ontario
+
     > How did you choose which features of your chosen dataset to include or exclude from your visualization? 
+    As the main purpose of the visualizations was to give an overview of Ontario's GDP, only the GDP of main two industries are selected for representation. GDP of the sub sectors under Goods producing industry were not included in the visualizations.
     
     > What ‘underwater labour’ contributed to your final data visualization product?
+    Finding an accurate dataset, Cleaning and modifying data in to python readable format, Writing python
+    script to generate required plots, commenting the script for reproducibility and modifying the plots for better accessibility. 
+
+
+    ```
+    2. Dashboard created with PowerBI (in assignment4.pbix file and assignment4.png)
+    ```
+    > What software did you use to create your data visualization?
+    PowerBI 
+
+    > Who is your intended audience? 
+    General public, Economists, Businesses and investors
+    
+    > What information or message are you trying to convey with your visualization? 
+    This visualization includes a line graph, a pie chart and a bar graph. 
+    * Line graph indicates how the Gross Domestic Product(GDP) of Ontario changes over time (2007-2022)
+    * Pie chart indicates the contribution of two main industries(Services,Goods Producing) to the GDP based on user selected year
+    * Bar graph shows the contribution of sub sectors to the GDP of Goods Producing industry based on the user selected year
+    
+    > What design principles (substantive, perceptual, aesthetic) did you consider when making your visualization? How did you apply these principles? With what elements of your plots? 
+    Substantive Principles:
+        * The visualizations accurately plot and label the data
+        * Clear axis labels, titles and legends are provided to ensure that users understands the plots
+        * The plots clearly convey the required message
+        * Only key insights are shown by the plots without making the visualizations cluttered
+
+     Perceptual Principles: 
+        * Contrasting colours are used to plot GDP for different industries
+        * Custom tooltips are used to display relevant information concisely
+        * The use of markers and lines shows the data points and trends over time
+        * Colors of the industries are consistent throughout the dashboard to avoid confusion  
+
+     Aesthetic Principles
+        * Colors used are neutral colors which are accessible for color sensitive and color blind audiences
+        * Consistent use of fonts, line styles, and marker sizes
+        * Properly spacing and aligning to ensure the plot is not cluttered to improve the readability
+
+    > How did you ensure that your data visualizations are reproducible? If the tool you used to make your data visualization is not reproducible, how will this impact your data visualization? 
+    Data source is mentioned in the report for reproducibility. As PowerBI tool is used to generate these plots, they are not reporoducibe. This will
+        * reduce the trasperency of the report
+        * be challenging to verify the accuracy
+        * be difficult to reproduce the insights
+        * modifications will be time consuming
+        * be difficult to idnetify errors in the process of creating the plots
+
+        But by using PowerBI with a work account, the dashboard could be published in the cloud and users can be given 
+        edit access which will improve the reproducilibilty. Also it will improve the transperency and will be easy to maintain and make changes to the plots. By doing all the data transformations in PowerBi itself, all the steps associated with data cleaning will be available in the data transform tab of PowerBI.
+    
+    > How did you ensure that your data visualization is accessible?  
+    To make the these visualizations accessible 
+    * contrasting and neutral colours are used
+    * Titles, x-axis label, y-axis label and a legend are added
+    * Tooltips are added for users to hover over the plots and understand data
+    * Fontsizes over 12pt are used
+    * The dashboard is interactive for further analysis by year 
+
+    > Who are the individuals and communities who might be impacted by your visualization?  
+    * Economists and policy makers who use GDP data to analyze economic performance
+    * Businesses and investors who rely on GDP data to make investment decisions
+    * The general public who uses GDP data to understand the economy of Ontario
+
+    > How did you choose which features of your chosen dataset to include or exclude from your visualization? 
+    As the main purpose of the dashboard was to give an overview of Ontario's GDP, the GDP of main two industries are selected
+    for representation. GDP of the sub sectors under Goods producing industry are also ncluded in the dashboard
+    as this is an interactive report, so users can select the years and get a better understanding based on their 
+    knowledge level.
+
+    > What ‘underwater labour’ contributed to your final data visualization product?
+    Finding an accurate dataset, Cleaning and modifying data using powerBI transform and creating the 
+    plots, adding slicers and formatting the dashboard to improve the readability.
+
 
 - This assignment is intentionally open-ended - you are free to create static or dynamic data visualizations, maps, or whatever form of data visualization you think best communicates your information to your audience of choice! 
 - Total word count should not exceed **(as a maximum) 1000 words** 
